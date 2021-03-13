@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CameraApp</string>
+    <string name="start_survey_RGB">Start Survey with RGB</string>
+    <string name="start_survey_IR">Start Survey with IR</string>
+    <string name="start_survey_REAR">REAR</string>
+
+    <string name="gallery">Gallery</string>
+    <string name="no_enough_permission">No enough permissions(CAMERA, RECORD_AUDIO, WRITE_EXTERNAL_STORAGE)</string>
+    <string name="recording">Recording</string>
+    <string name="record">Record</string>
+    <string name="shot">Shot</string>
+    <string name="cancel">Cancel</string>
+    <string name="image_mode">Image Mode</string>
+    <string name="video_mode">Video Mode</string>
+    <string name="finish">Finish</string>
+    <string name="flip">Flip</string>
+    <string name="play_file">Play[%s]</string>
+    <string name="done">Done</string>
+    <string name="fill">Fill</string>
+    <string name="zoom">Zoom</string>
+    <string name="video_size">Video size</string>
+    <string name="image_size">Image size</string>
+    <string name="ratio">Ratio</string>
+    <string name="flash_auto">Auto</string>
+    <string name="flash_on">On</string>
+    <string name="flash_off">Off</string>
+
+    <string name="output_hint">Please place your finger on the device\'s camera lightly and cover the flash.</string>
+    <string name="raw_values">Measurements (Timestamp, Value)</string>
+    <string name="title">Camera2 PPG</string>
+    <plurals name="measurement_output">
+        <item quantity="zero">Current: %2.1f (%d valleys in %2.1f seconds)</item>
+        <item quantity="one">Current: %2.1f (%d valleys in %2.1f seconds)</item>
+        <item quantity="other">Current: %2.1f (%d valleys in %2.1f seconds)</item>
+    </plurals>
+    <plurals name="measurement_result">
+        <item quantity="zero">Heart Rate: %2.1f</item>
+        <item quantity="one">Heart Rate: %2.1f</item>
+        <item quantity="other">Heart Rate: %2.1f</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-rPPG.iml" filepath="$PROJECT_DIR$/android-rPPG.iml" group="android-rPPG" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="android-rPPG/app" />
+      <module fileurl="file://$PROJECT_DIR$/camera/camera.iml" filepath="$PROJECT_DIR$/camera/camera.iml" group="android-rPPG/camera" />
+    </modules>
+  </component>
+</project>

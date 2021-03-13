@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <top.defaults.camera.CameraView
+        android:id="@+id/preview"
+        android:layout_width="150sp"
+        android:layout_height="200sp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
+        app:aspectRatio="4:3"
+        app:autoFocus="true"
+        app:facing="back"
+        app:fillSpace="false"
+        app:flash="auto"
+        app:mode="video"
+        app:pinchToZoom="false"
+        app:showFocusIndicator="true" />
+
+    <top.defaults.camera.CameraView
+        android:id="@+id/preview2"
+        android:layout_width="150sp"
+        android:layout_height="200sp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="30dp"
+        app:aspectRatio="4:3"
+        app:autoFocus="true"
+        app:facing="back"
+        app:fillSpace="false"
+        app:flash="auto"
+        app:mode="video"
+        app:pinchToZoom="false"
+        app:showFocusIndicator="true" />
+
+
+
+    <LinearLayout
+        android:id="@+id/accelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preview2"
+        android:orientation="horizontal">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart1"
+            android:layout_width="match_parent"
+            android:layout_height="150sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ambientlighttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accelerometer"
+        android:layout_marginTop="5sp"
+        android:text="Ambient Light"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/ambien_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ambientlighttitle"
+        android:text="ambientlight"
+        android:textAlignment="center"
+        android:textSize="15sp" />
+
+
+    <ImageButton
+        android:id="@+id/flash_torch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="?android:selectableItemBackground"
+        android:padding="16dp"
+        android:src="@drawable/light_off" />
+
+    <TextView
+        android:id="@+id/zoomValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/actions_layout"
+        android:layout_margin="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/recording"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="14sp"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/actions_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#3fffffff">
+
+
+        <ImageButton
+            android:id="@+id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_centerInParent="true"
+            android:background="?android:selectableItemBackground"
+            android:padding="16dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

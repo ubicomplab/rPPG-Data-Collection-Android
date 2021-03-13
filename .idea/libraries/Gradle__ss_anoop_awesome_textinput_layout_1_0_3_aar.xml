@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ss.anoop:awesome-textinput-layout:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/awesome-textinput-layout-1.0.3.aar/636b694c25ff780b6b94ae02bebb90f7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/awesome-textinput-layout-1.0.3.aar/636b694c25ff780b6b94ae02bebb90f7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ss.anoop/awesome-textinput-layout/1.0.3/91e0bb6a2281f488d7134f73238bff35934a3894/awesome-textinput-layout-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

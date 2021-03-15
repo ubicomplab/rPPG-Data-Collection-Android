@@ -1,4 +1,4 @@
-# rPPG-Android
+# rPPG Android Data Collection App
 
 ## Gradle
 
